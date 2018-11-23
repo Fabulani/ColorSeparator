@@ -219,31 +219,3 @@ void tcsMode(int mode) {
     }
     return;
 }
-
-
-
-//// Identificar a cor detectada:
-//    if ( ((R.r-15.0 < T.RGB[0]) && (R.r+15.0 > T.RGB[0])) &&
-//         ((R.g-15.0 < T.RGB[1]) && (R.g+15.0 > T.RGB[1])) &&
-//         ((R.b-15.0 < T.RGB[2]) && (R.b+15.0 > T.RGB[2])) ){
-//          Serial.println("RED");
-//          return 'R';
-//         }
-//    else if ( ((G.r-15.0 < T.RGB[0]) && (G.r+15.0 > T.RGB[0])) &&
-//              ((G.g-15.0 < T.RGB[1]) && (G.g+15.0 > T.RGB[1])) &&
-//              ((G.b-15.0 < T.RGB[2]) && (G.b+15.0 > T.RGB[2])) ){
-//          
-//          Serial.println("GREEN");
-//          return 'G';
-//              }
-//  else if ( ((B.r-15.0 < T.RGB[0]) && (B.r+15.0 > T.RGB[0])) &&
-//            ((B.g-15.0 < T.RGB[1]) && (B.g+15.0 > T.RGB[1])) &&
-//            ((B.b-15.0 < T.RGB[2]) && (B.b+15.0 > T.RGB[2])) ){
-//          
-//          Serial.println("BLUE");
-//          return 'B';
-//            }
-//  else{
-//    Serial.println("ERROR");
-//    return 'E';
-//  }
