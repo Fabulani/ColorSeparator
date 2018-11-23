@@ -1,8 +1,4 @@
- /*
-
-13/11/18 - Teste do controlador PD
-
-*/
+ /* Teste do controlador */
 
 
 struct PONTEH {
