@@ -1,5 +1,5 @@
 # ColorSeparator
-Separates pens based on their color by use of a TCS3200 color sensor and a DC12V motor with a 10k potentiometer attachment for angular position sensoring and controlling.
+Separates pens based on their color by use of a TCS3200 color sensor, Arduino MEGA and a DC12V motor with a 10k potentiometer attachment for angular position sensoring and controlling.
 
 Video: https://youtu.be/dRrr3rgONBE
 
